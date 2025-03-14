@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sas-example
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/testdb?serverTimezone=UTC&userUnicode=true&characterEncoding=utf-8
+    username: user
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    show-sql: true
